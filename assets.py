@@ -1,5 +1,5 @@
 from support import word
-fr
+
 # Unharmed parachute [0]
 print("  ___  \n /___\ \n \   / \n  \ /  \n   0   \n  /|\  \n  / \  \n\n^^^^^^^")
 # [1]
