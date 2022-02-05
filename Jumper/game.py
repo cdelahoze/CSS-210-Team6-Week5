@@ -1,18 +1,18 @@
-class skydiver:
+class Skydiver:
 
     def __init__(self):
 
           
-        cartoon = self.create_cartoon()
+        cartoons = self._create_cartoon()
  
-        while self.is_a_draw(cartoon):
-            self.display_cartoon(cartoon)
-            self.make_move(cartoon)
+        while self.is_a_draw(cartoons):
+            self.display_cartoon(cartoons)
+            self.make_move(cartoons)
         
-        self.display_cartoon(cartoon)
+        self.display_cartoon(cartoons)
         print("You have no more parachute the game is over!") 
 
-    def create_cartoon(self):
+    def _create_cartoon(self):
         cartoon = [" ___", "/", "___", "\ ", "\ ", "/ ", "\ ", "/ ", "O", "/", "|", "\ ", "/", "\ ", "^^^^^^^"]
     
         return cartoon
