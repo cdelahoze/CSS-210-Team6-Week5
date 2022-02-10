@@ -1,12 +1,6 @@
-from Jumper.game import Skydiver
+from Jumper.director import game
 
-MySkydiver = Skydiver()
-#cartoon = [" ___", "/", "___", "\ ", "\ ", "/ ", "\ ", "/ ", "O", "/", "|", "\ ", "/", "\ ", "XXXXXXXX"]
-#MySkydiver.__display_cartoon(cartoon)
-
-
-
-
+game = game()
 
 
 
