@@ -1,4 +1,4 @@
-class Skydiver:
+class Skydiver():
 
     def __init__(self):
 

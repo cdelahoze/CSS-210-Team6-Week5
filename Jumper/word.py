@@ -1,6 +1,6 @@
 import random
 
-class list:
+class list():
 
     def __init__(self):
      

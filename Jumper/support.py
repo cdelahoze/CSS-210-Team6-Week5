@@ -1,20 +1,8 @@
 import random
+from Jumper.word import list
 
-class word:
+class Word(list):
 
-    def __init__(self):
-        with open('words.txt') as f:
-            lines = f.readlines()
-
-            temp_list = []
-            for line in lines:
-        
-                temp_list.append((line.strip("\n")).upper())
-            
-        self.words_list = temp_list
-        self.word = (random.choice(self.words_list))
-
-        
     # Create the Puzzle
     def create_puzzle(self):
         underscore = ["_", "_", "_","_", "_", "_", "_", "_", "_", "_", "_", "_", "_", "_"]
