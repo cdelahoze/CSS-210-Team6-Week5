@@ -12,5 +12,5 @@ class list():
         
                 temp_list.append((line.strip("\n")).upper())
             
-        self.words_list = temp_list
-        self.word = (random.choice(self.words_list))
+        self.__words_list = temp_list
+        self.word = (random.choice(self.__words_list))
